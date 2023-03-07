@@ -11,39 +11,55 @@
 
 <body>
     <div class="all">
-        <header class="header"> <a class="logo" href="index.html">
-                <img class="image1" src="img/logo.svg" alt="logotype"> </a>
+        <header class="header"> <a class="header__logo" href="index.html">
+                <img class="header__image1" src="img/logo.svg" alt="logotype"> </a>
             <nav>
-                <ul class="menu">
-                    <li class="menu_list"><a class="menu_link menu_link_active" href="index.html">Главная</a></li>
-                    <li class="menu_list"><a class="menu_link" href="students.html">Студенты</a></li>
-                    <li class="menu_list"><a class="menu_link" href="about.html">О курсе</a></li>
-                    <li class="menu_list"><a class="menu_link" href="contacts.html">Контакты</a></li>
+                <ul class="header__menu">
+                    <li class="header__menu_list"><a class="header__menu_link header__menu_link_active"
+                            href="index.html">Главная</a></li>
+                    <li class="header__menu_list"><a class="header__menu_link" href="students.html">Студенты</a></li>
+                    <li class="header__menu_list"><a class="header__menu_link" href="about.html">О курсе</a></li>
+                    <li class="header__menu_list"><a class="header__menu_link" href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
-            <a class="button" href="#">Войти</a>
+            <a class="header__button" href="#">Войти</a>
         </header>
-        <main class="content">
-            <h1 class="title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
-            <img class="image" src="img/contentphoto.jpg" alt="Главное фото">
-            <div class="content__info">
-                <div class="content_section">
-                    <div class="content_article">
-                        <h3 class="subtitle">Для кого этот курс</h3>
-                        <p class="about_text">Этот курс рассчитан на новичков, которые только начинают знакомство с
+        <section class="section">
+            <div class="section__info">
+                <form class="section__form" action="form.php">
+                    <h2 class="section__title">Войти на сайт</h2>
+                    <p class="section__login"><input class="section__log" type="text" placeholder="Логин">
+                    </p>
+                    <p class="section__password"><input class="section__password2" type="password" placeholder="Пароль">
+                    </p>
+                    <button type="submit" class="section__btn">Войти</button>
+                </form>
+            </div>
+        </section>
+        <main class="main__content">
+            <h1 class="main__title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+            <img class="main__image" src="img/contentphoto.jpg" alt="Главное фото">
+            <div class="main__content__info">
+                <div class="main__content_section">
+                    <div class="main__content_article">
+                        <h3 class="main__subtitle">Для кого этот курс</h3>
+                        <p class="main__about_text">Этот курс рассчитан на новичков, которые только начинают знакомство
+                            с
                             веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.</p>
-                        <p class="about_text">Для обучения необходимо только владеть компьютерной грамотностью
+                        <p class="main__about_text">Для обучения необходимо только владеть компьютерной грамотностью
                             (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
 
                     </div>
-                    <div class="content_article">
-                        <h3 class="subtitle">Чему вы научитесь</h3>
-                        <p class="about_text ">На этом курсе вы узнаете, как устроены веб-сайты и как
+
+                    <div class="main__content_article">
+                        <h3 class="main__subtitle">Чему вы научитесь</h3>
+                        <p class="main__about_text ">На этом курсе вы узнаете, как устроены веб-сайты и как
                             создавать
                             их с нуля.
                             Изучите основы языков <strong>HTML</strong> ,<strong>CSS</strong> и немного
                             <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому
-                            макету. А затем вы <em class="detail">сами</em> сверстаете свои личные странички в качестве
+                            макету. А затем вы <em class="main__detail">сами</em> сверстаете свои личные странички в
+                            качестве
                             домашнего задания и
                             мы
                             выложим
@@ -51,12 +67,12 @@
                         </p>
                     </div>
                 </div>
-                <h2 class="heading">“Учимся вместе!”</h2>
+                <h2 class="main__heading">“Учимся вместе!”</h2>
             </div>
         </main>
     </div>
     <footer class="footer">
-        <p>2023 &copy; <a class="work_centr" href="#">учебный центр</a></p>
+        <p class="footer__text">2023 &copy; <a class="footer__work_centr" href="#">учебный центр</a></p>
     </footer>
 </body>
 
