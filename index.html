@@ -74,6 +74,14 @@
     <footer class="footer">
         <p class="footer__text">2023 &copy; <a class="footer__work_centr" href="#">учебный центр</a></p>
     </footer>
+    <script>
+        const buttonEl = document.querySelector('.header__button');
+        const blockPopup = document.querySelector('.section');
+
+        buttonEl.addEventListener('click', function (e) {
+            blockPopup.classList.toggle('visible');
+        });
+    </script>
 </body>
 
 </html>
