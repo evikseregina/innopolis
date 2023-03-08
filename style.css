@@ -82,7 +82,11 @@ img {
 
 }
 
+.section {
+    padding-left: calc(50% - 470px/2);
+    padding-right: calc(50% - 470px/2);
 
+}
 
 
 .section__info {
@@ -96,7 +100,8 @@ img {
     justify-content: space-around;
     box-shadow: 8px 8px #E5E5E5;
     position: absolute;
-    margin: 80px 2px 0px 710px
+    margin-top: 80px;
+
 }
 
 .section__login {
@@ -438,9 +443,6 @@ img {
     }
 }
 
-
-
-
 @media screen and (max-width: 768px) {
     .header {
         max-width: 650px;
@@ -453,8 +455,9 @@ img {
     }
 
     .header__menu {
-        margin-left: 10px;
-        gap: 10px;
+        align-items: center;
+        gap: 14px;
+
     }
 
     .header__menu_link {
@@ -485,6 +488,15 @@ img {
 
     }
 
+    .main__content_students {
+        max-width: 500px;
+        width: 100%;
+        margin-left: 40px;
+
+    }
+
+
+
     .main__title {
         text-align: center;
     }
@@ -499,7 +511,7 @@ img {
 
     .main__video_img {
         width: 500px;
-        height: 350px
+        height: 300px
     }
 
     .main__content {
@@ -541,5 +553,11 @@ img {
 
     .footer {
         min-width: 430px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__content_about {
+        margin-left: 50px;
     }
 }
