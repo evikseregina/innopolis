@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main__content-section {
+    width: 634px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__content-section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__content-section {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__content-section {
+        max-width: 350px;
+    }
+}

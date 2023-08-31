@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main__content-about {
+    margin-left: 300px;
+    margin-bottom: 420px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__content-about {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__content-about {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__content-about {
+        margin-left: 50px;
+    }
+}

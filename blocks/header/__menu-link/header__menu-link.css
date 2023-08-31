@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    padding: 28px 18px;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__menu-link {
+        font-size: 18px;
+        padding: 20px 14px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu-link {
+        text-align: center;
+        font-size: 14px;
+        padding: 20px 5px;
+    }
+}

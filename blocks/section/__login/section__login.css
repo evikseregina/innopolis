@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section__login {
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section__login {
+        width: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section__login {
+        width: 5px;
+        margin-bottom: 15px;
+    }
+}

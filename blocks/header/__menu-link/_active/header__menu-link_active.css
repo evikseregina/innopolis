@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-link_active {
+    color: #213B7E;
+    background-color: #fff;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu-link_active {
+        padding: 20px 0;
+    }
+}

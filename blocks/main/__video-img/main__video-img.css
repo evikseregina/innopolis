@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main__video-img {
+    width: 820px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .main__video-img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__video-img {
+        width: 500px;
+
+    }
+}

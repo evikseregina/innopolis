@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    text-align: center;
+    background-color: #213B7E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        min-width: 520px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .footer {
+        min-width: 430px;
+    }
+}

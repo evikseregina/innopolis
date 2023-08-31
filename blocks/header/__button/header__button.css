@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__button {
+    width: 153px;
+    height: 50px;
+    background: #EA5D21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header__button {
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__button {
+        font-size: 13px;
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 70px;
+
+    }
+}
